@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-           <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Contact us <i class="fa fa-chevron-right"></i></span></p>
-           <h1 class="mb-0 bread">Contact us</h1>
+           <p class="breadcrumbs"><span class="mr-2"><a href="/">Beranda <i class="fa fa-chevron-right"></i></a></span> <span>Kontak <i class="fa fa-chevron-right"></i></span></p>
+           <h1 class="mb-0 bread">Kontak</h1>
          </div>
        </div>
      </div>
@@ -79,7 +79,9 @@
           </div>
 
           <div class="col-md-6 d-flex">
-           <div id="map" class="bg-white"></div>
+            <div id="map" class="bg-white">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d808.3390137684429!2d110.43406932042939!3d-6.9988495244562925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708c990db0089b%3A0x6b67584fe408fd4a!2sSMK%20Negeri%209%20Semarang!5e0!3m2!1sid!2sid!4v1741581216446!5m2!1sid!2sid" class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
          </div>
        </div>
      </div>
