@@ -4,8 +4,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-           <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
-           <h1 class="mb-0 bread">About Us</h1>
+           <p class="breadcrumbs"><span class="mr-2"><a href="/">Beranda <i class="fa fa-chevron-right"></i></a></span> <span>Tentang Kami <i class="fa fa-chevron-right"></i></span></p>
+           <h1 class="mb-0 bread">Tentang Kami</h1>
          </div>
        </div>
      </div>
@@ -16,12 +16,11 @@
         <div class="row d-flex">
           <div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate d-flex align-items-center">
            <div class="w-100">
-            <span class="subheading">Welcome to Pacific</span>
-            <h2 class="mb-4">It's time to start your adventure</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-            A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <p><a href="#" class="btn btn-primary py-3 px-4">Search Destination</a></p>
+            <span class="subheading">Selamat Datang</span>
+            <h2 class="mb-4">Waktunya memulai pendakianmu</h2>
+            <p>Selamat datang di infopendakian.com, platform digital yang didedikasikan untuk para pecinta alam dan pendaki gunung di seluruh Indonesia!</p>
+            <p>Kami hadir untuk memberikan informasi lengkap mengenai berbagai gunung di Indonesia, mulai dari jalur pendakian, sejarah, spot foto terbaik, ketinggian, estimasi waktu tempuh, hingga rekomendasi waktu terbaik untuk mendaki.</p>
+            <p><a href="/destination" class="btn btn-primary py-3 px-4">Cari Destinasi</a></p>
           </div>
         </div>
         <div class="col-md-6">
@@ -30,8 +29,8 @@
             <div class="services services-1 color-1 d-block img" style="background-image: url(images/services-1.jpg);">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Activities</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                <h3 class="heading mb-3">Sejarah</h3>
+                <p>Pelajari segala sesuatu tentang gunung tujuanmu</p>
               </div>
             </div>
           </div>
@@ -39,8 +38,8 @@
             <div class="services services-1 color-2 d-block img" style="background-image: url(images/services-2.jpg);">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Travel Arrangements</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                <h3 class="heading mb-3">Informasi Jalur</h3>
+                <p>Temukan informasi seputar pilihan jalur pendakian, jarak, waktu, dan ketinggian</p>
               </div>
             </div>
           </div>
@@ -48,8 +47,8 @@
             <div class="services services-1 color-3 d-block img" style="background-image: url(images/services-3.jpg);">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tour-guide"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Private Guide</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                <h3 class="heading mb-3">Informasi Porter</h3>
+                <p>Pilihan Porter terbaik untuk membantu perjalanan pendakianmu</p>
               </div>
             </div>
           </div>
@@ -57,8 +56,8 @@
             <div class="services services-1 color-4 d-block img" style="background-image: url(images/services-4.jpg);">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-map"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Location Manager</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                <h3 class="heading mb-3">Informasi Rekomendasi</h3>
+                <p>Temukan rekomendasi spot foto, jam pendakian, resep makanan, dan lebih banyak lagi</p>
               </div>
             </div>
           </div>
@@ -94,10 +93,10 @@
         <div class="col-md-6 pl-md-5 py-5">
           <div class="row justify-content-start pb-3">
             <div class="col-md-12 heading-section ftco-animate">
-             <span class="subheading">About Us</span>
-             <h2 class="mb-4">Make Your Tour Memorable and Safe With Us</h2>
-             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-             <p><a href="#" class="btn btn-primary">Book Your Destination</a></p>
+             <span class="subheading">Pesan Tiket</span>
+             <h2 class="mb-4">Booking tiket mulai sekarang sebelum kehabisan</h2>
+             <p>Kami menyediakan fitur pemesanan tiket pendakian yang memudahkan Anda dalam merencanakan perjalanan, serta informasi mengenai persewaan alat pendakian di sekitar lokasi.</p>
+             <p><a href="/destination" class="btn btn-primary">Pesan Tiket Sekarang</a></p>
            </div>
          </div>
        </div>
@@ -112,8 +111,9 @@
      <div class="container">
       <div class="row justify-content-center pb-4">
         <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-         <span class="subheading">Testimonial</span>
-         <h2 class="mb-4">Tourist Feedback</h2>
+         <span class="subheading">Testimoni</span>
+         <h2 class="mb-4">Pengalaman Mendaki Mereka</h2>
+         <p>Kami juga menjadi wadah bagi komunitas pendaki untuk saling berbagi pengalaman, tips, serta foto kenangan dari perjalanan mereka.</p>
        </div>
      </div>
      <div class="row ftco-animate">
