@@ -33,12 +33,12 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="/" class="nav-link">Home</a></li>
-					<li class="nav-item {{ request()->is('about') ? 'active' : '' }}"><a href="/about" class="nav-link">About</a></li>
-					<li class="nav-item {{ request()->is('destination') ? 'active' : '' }}"><a href="/destination" class="nav-link">Destination</a></li>
+					<li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="/" class="nav-link">Beranda</a></li>
+					<li class="nav-item {{ request()->is('about') ? 'active' : '' }}"><a href="/about" class="nav-link">Tentang Kami</a></li>
+					<li class="nav-item {{ request()->is('destination') ? 'active' : '' }}"><a href="/destination" class="nav-link">Gunung</a></li>
 					<li class="nav-item {{ request()->is('hotel') ? 'active' : '' }}"><a href="/hotel" class="nav-link">Hotel</a></li>
 					<li class="nav-item {{ request()->is('blog') ? 'active' : '' }}"><a href="/blog" class="nav-link">Blog</a></li>
-					<li class="nav-item {{ request()->is('contact') ? 'active' : '' }}"><a href="/contact" class="nav-link">Contact</a></li>
+					<li class="nav-item {{ request()->is('contact') ? 'active' : '' }}"><a href="/contact" class="nav-link">Kontak</a></li>
 				</ul>
 			</div>
 		</div>
