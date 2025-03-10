@@ -26,19 +26,19 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="/">Pacific<span>Travel Agency</span></a>
+			<a class="navbar-brand" href="/">infopendakian.com<span>Informasi Seputar Pendakian</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="/destination" class="nav-link">Destination</a></li>
-					<li class="nav-item"><a href="/hotel" class="nav-link">Hotel</a></li>
-					<li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+					<li class="nav-item {{ request()->is('/') ? 'active' : '' }}"><a href="/" class="nav-link">Home</a></li>
+					<li class="nav-item {{ request()->is('about') ? 'active' : '' }}"><a href="/about" class="nav-link">About</a></li>
+					<li class="nav-item {{ request()->is('destination') ? 'active' : '' }}"><a href="/destination" class="nav-link">Destination</a></li>
+					<li class="nav-item {{ request()->is('hotel') ? 'active' : '' }}"><a href="/hotel" class="nav-link">Hotel</a></li>
+					<li class="nav-item {{ request()->is('blog') ? 'active' : '' }}"><a href="/blog" class="nav-link">Blog</a></li>
+					<li class="nav-item {{ request()->is('contact') ? 'active' : '' }}"><a href="/contact" class="nav-link">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -51,9 +51,9 @@
                 <div class="col-md-12 text-center">
                     <div class="img"  style="background-image: url(images/bg_2.jpg);">
                         <div class="overlay"></div>
-                        <h2>We Are Pacific A Travel Agency</h2>
-                        <p>We can manage your dream building A small river named Duden flows by their place</p>
-                        <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Ask For A Quote</a></p>
+                        <h2>Jelajahi. Berbagi. Menginspirasi.</h2>
+                        <p>"Platform informasi pendakian gunung, pemesanan tiket, dan komunitas pendaki di Indonesia"</p>
+                        <p class="mb-0"><a href="/contact" class="btn btn-primary px-4 py-3">Hubungi Kami</a></p>
                     </div>
                 </div>
             </div>
@@ -65,8 +65,8 @@
             <div class="row mb-5">
                 <div class="col-md pt-5">
                     <div class="ftco-footer-widget pt-md-5 mb-4">
-                        <h2 class="ftco-heading-2">About</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <h2 class="ftco-heading-2">Tentang Kami</h2>
+                        <p>Bersama infopendakian.com, mari jelajahi keindahan alam Indonesia dengan lebih mudah, aman, dan menyenangkan!</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
                             <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
                             <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
